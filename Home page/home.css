@@ -109,6 +109,7 @@ select{
     width: 80%;
     margin-left: 10%;
     margin-top: 2%;
+    
   
 }
 
@@ -122,7 +123,7 @@ select{
 }
 #quickHeading:hover{
     font-size: 40px;
-    color: black;
+    color: rgb(75, 75, 200);
 
 }
 
@@ -138,7 +139,7 @@ select{
 .tileContainer{
     width:30%;
     height: 180px;
-    box-shadow: 10px 20px 10px gray;
+    box-shadow: 10px 15px 10px darkseagreen;
     float:left;
     margin-left : 2%;
     margin-top: 2%;
