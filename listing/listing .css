@@ -1,0 +1,57 @@
+body{
+    margin:auto;
+}
+a{
+    text-decoration:none;
+}
+
+/* header-section */
+header{
+    height: 60px;
+    width: 100%;
+    background-color:black;
+}
+#flipkartlogo{
+    float: left;
+}
+.flipkart{
+    height:60px;
+    width: 120px;
+}
+
+#social{
+    float: right;
+   
+}
+.slogo{
+    height: 60px;
+    width: 60px;
+
+}
+
+
+
+/*Footer section*/
+footer{
+    margin-top:5%;
+    height: 120px;
+    width: 100%;
+    color:white;
+    background-color:black;
+    /* border: 2px solid blue; */
+}
+#footerText{
+    text-align:center;
+}
+
+.footDiv{
+    height:70px;
+    width:33%;
+    float:left;
+    border-right: 2px solid rgb(145, 209, 213);
+    text-align:center;
+}
+
+.noBorder{
+    border: none;
+}
