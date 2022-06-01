@@ -29,6 +29,93 @@ header{
 
 }
 
+/*listing*/
+.headingText{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+#Details{
+    
+    height:50px;
+    width:150px;
+    color: #fff;
+    background-color: green;
+    border-radius: 80px;
+    margin-bottom: 1%;
+    
+}
+#content{
+    width: 80%;
+    display:inline-block;
+    margin-left: 10%;
+}
+
+.filterDiv{
+    height:700px;
+    width:20%;
+    border:2px solid gray;
+    float:left;
+}
+.f1{
+    text-align:center;
+}
+#filter{
+    margin-left: 5%;
+}
+.checkbox{
+    vertical-align: middle;
+    /* display: inline-block; */
+    align-items: center;
+}
+.contentDiv{
+   display:inline-block;
+    width:77%;
+    margin-left: 2%;
+    /* border:2px solid green; */
+    /* float:left */
+}
+#data{
+    height:300px;
+    width: 850px;
+    margin-left: 5%;
+    /* border:2px solid red; */
+    margin-top: 5%;
+    box-shadow: 10px 20px 50px gray;
+    
+    /* display:inline-block; */
+}
+#image{
+    height:150px;
+    width:150px;
+    margin-left:5%;
+    margin-top: 5%;
+    float:left;
+    /* border-bottom: 2px solid black; */
+
+    /* border: 2px solid green; */
+}
+.mainimg{
+    height:150px;
+    width:150px;
+    
+    
+
+}
+#content1{
+    height :150px;
+    width : 600px;
+    /* border: 2px solid green; */
+    margin-left:155px;
+    margin-top: -155px;
+    /* border-bottom: 2px solid black; */
+    /* margin-bottom: 5%; */
+}
+.h1{
+    margin-top:1px;
+}
+
 
 
 /*Footer section*/
