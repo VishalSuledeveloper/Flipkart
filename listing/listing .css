@@ -40,8 +40,8 @@ header{
     
     height:50px;
     width:150px;
-    color: #fff;
-    background-color: green;
+    /* color: rgb(157, 32, 84) !important; */
+    background-color: pink;
     border-radius: 80px;
     margin-bottom: 1%;
     
