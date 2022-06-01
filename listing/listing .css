@@ -53,7 +53,7 @@ header{
 }
 
 .filterDiv{
-    height:700px;
+    height:auto ;
     width:20%;
     border:2px solid gray;
     float:left;
@@ -77,7 +77,7 @@ header{
     /* float:left */
 }
 #data{
-    height:300px;
+    height: 300px;
     width: 850px;
     margin-left: 5%;
     /* border:2px solid red; */
