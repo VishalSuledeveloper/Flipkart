@@ -34,7 +34,7 @@ header{
     height: 400px;
     width: 100%;
     /* background-color:red; */
-    background-image:url("../Images/cover1.jpg");
+    background-image:url("./Images/cover1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-size: 100% 450px;
