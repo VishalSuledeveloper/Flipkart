@@ -1,5 +1,14 @@
 body{
     margin:auto;
+    background-color:white;
+                color:black
+}
+.mydark{
+    background-color:black;
+    color:white
+}
+#dark{
+    margin-left: 5px;
 }
 a{
     text-decoration:none;
@@ -48,6 +57,7 @@ header{
     position: absolute;
 }
 #logo{
+    color:rgb(59, 59, 168);
     height: 150px;
     width: 150px;
     background-color: white;
