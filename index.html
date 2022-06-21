@@ -3,6 +3,7 @@
     <head>
         <title>Flipkart</title>
         <script src="dark.js"></script>
+        <script src="home.js"></script>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>   
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
@@ -11,6 +12,7 @@
 
     </head>
     <body>
+       
         <!-- header section -->
         <header>
             <div id="logo1">
@@ -35,6 +37,35 @@
         
             <button onClick="changeMode()">ChangeMode</button>
             </header>
+            
+                <div id="coupon">
+                    <button onClick="closeCoupon()">&times;</button>
+                    <h3>This Coupon Will Generate 20% Off On Any Product</h3>
+                    <h5>Just You Need To Copy This coupon code.</h5>
+                    <div class="cpn-Row">
+                        <span id="cpnCode">FLIPOFF20</span>
+                        <span id="cpnBtn">COPY CODE</span>
+                    </div>
+                    <h5>Valid Till: 21 Dec, 2022</h5>
+                    <script>
+                
+                        var cpnBtn = document.getElementById("cpnBtn");
+                        var cpnCode = document.getElementById("cpnCode");
+        
+                        cpnBtn.onclick = function(){
+                            navigator.clipboard.writeText(cpnCode.innerHTML);
+                            cpnBtn.innerHTML ="COPIED";
+                            setTimeout(function(){
+                                cpnBtn.innerHTML="COPY CODE";
+                            },3000);
+        
+                        }
+                        window.onload=loadCoupon()
+                    </script>
+                </div>
+             
+          
+            
     
 
             </div>
@@ -46,9 +77,12 @@
                 <div id="logo">
                     <span>Fk!</span>
                 </div>
+                
                 <div id="heading">
                     What You Want To buy?
                 </div>
+               
+                
                 <div class="dropdown">
                     <select>
                         <option>----SELECT YOUR PRODUCT----</option>
