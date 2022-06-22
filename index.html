@@ -31,44 +31,20 @@
            
 
             </div>
+            
             <div id="dark">
                 
-            <h2>Light Dark Mode</h2>
+                <!-- <h2>Light Dark Mode</h2> -->
         
-            <button onClick="changeMode()">ChangeMode</button>
+                <button onClick="changeMode()">ChangeMode</button>
+                <a href="./coupons.html">
+                    <button>Coupon</button>
+                </a>
+            </div>
+           
+
             </header>
             
-                <div id="coupon">
-                    <button onClick="closeCoupon()">&times;</button>
-                    <h3>This Coupon Will Generate 20% Off On Any Product</h3>
-                    <h5>Just You Need To Copy This coupon code.</h5>
-                    <div class="cpn-Row">
-                        <span id="cpnCode">FLIPOFF20</span>
-                        <span id="cpnBtn">COPY CODE</span>
-                    </div>
-                    <h5>Valid Till: 21 Dec, 2022</h5>
-                    <script>
-                
-                        var cpnBtn = document.getElementById("cpnBtn");
-                        var cpnCode = document.getElementById("cpnCode");
-        
-                        cpnBtn.onclick = function(){
-                            navigator.clipboard.writeText(cpnCode.innerHTML);
-                            cpnBtn.innerHTML ="COPIED";
-                            setTimeout(function(){
-                                cpnBtn.innerHTML="COPY CODE";
-                            },3000);
-        
-                        }
-                        window.onload=loadCoupon()
-                    </script>
-                </div>
-             
-          
-            
-    
-
-            </div>
             
             
          <!--Search Section-->
@@ -242,9 +218,97 @@
                         </div>
                     </div>
                 </div>
+                <div class="tileContainer">
+                    <div class="tileComponent1">
+                        <img src="./Images/Air_buds/Apple_air_buds.jpg" alt="Apple-Buds"/>
+                    </div>
+                    <div class="tileComponent2">
+                        <div class="componentHeading">
+                            <a href="./listing/listing.html"">Apple Air Buds</a>
+                        </div>
+                        <div class="componentSubHeading">
+                            20% off on this product
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tileContainer">
+                    <div class="tileComponent1">
+                        <img src="./Images/Air_buds/boat_air_buds.jpg" alt="boat air buds"/>
+                    </div>
+                    <div class="tileComponent2">
+                        <div class="componentHeading">
+                            <a href="./listing/listing.html">Boar Air Buds</a>
+                        </div>
+                        <div class="componentSubHeading">
+                            Trending produces
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tileContainer">
+                    <div class="tileComponent1">
+                        <img src="./Images/Air_buds/air_buds1.jpg" alt="air-buds"/>
+                    </div>
+                    <div class="tileComponent2">
+                        <div class="componentHeading">
+                            <a href="./listing/listing.html">Air Buds</a>
+                        </div>
+                        <div class="componentSubHeading">
+                            Best Quality Products
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tileContainer">
+                    <div class="tileComponent1">
+                        <img src="./Images/laptops/laptop-helios-predator.jpg" alt="Helios Predator"/>
+                    </div>
+                    <div class="tileComponent2">
+                        <div class="componentHeading">
+                            <a href="./listing/listing.html">Predator</a>
+                        </div>
+                        <div class="componentSubHeading">
+                            Gaming laptop For Gamers
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tileContainer">
+                    <div class="tileComponent1">
+                        <img src="./Images/Mobiles/motrolo.jpg" alt="motrolo"/>
+                    </div>
+                    <div class="tileComponent2">
+                        <div class="componentHeading">
+                            <a href="./listing/listing.html">Motrolo</a>
+                        </div>
+                        <div class="componentSubHeading">
+                            Here we get 10 % off on this product
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tileContainer">
+                    <div class="tileComponent1">
+                        <img src="./Images/laptops/laptop-hp.jpg" alt="hp-laptop"/>
+                    </div>
+                    <div class="tileComponent2">
+                        <div class="componentHeading">
+                            <a href="./listing/listing.html">HP-Laptop</a>
+                        </div>
+                        <div class="componentSubHeading">
+                            Best Laptops To Use
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </div>
+            </div>
+
+        </div>
+
+        
             
            
 

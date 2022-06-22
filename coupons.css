@@ -1,0 +1,45 @@
+body{
+    margin:auto;
+    background-color:rgb(80, 152, 214);
+    
+}
+a{
+    text-decoration:none;
+}
+
+/* coupons */
+#coupon{
+    margin-top: 10% !important;
+    border: thick double #32a1ce;
+    height:300px;
+    width:450px;
+    background-color: rgb(57, 171, 150);
+    z-index: 100;
+    margin: auto;
+    visibility:hidden;
+}
+#coupon h3{
+    text-align:center;
+}
+#coupon h5 {
+    text-align:center;
+}
+.cpn-Row{
+    display:flex;
+    align-items:center;
+    margin: 25px auto;
+    width:fit-content;
+}
+#cpnCode{
+    border:1px dashed rgb(55, 34, 215);
+    padding: 10px 20px;
+    border-radius: 0;
+}
+#cpnBtn{
+    border: 1px solid #fff;
+    background: rgb(119, 189, 210);
+    padding: 10px 20px;
+    color:#fff;
+    cursor: pointer;
+
+}
