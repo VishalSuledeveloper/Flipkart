@@ -16,6 +16,7 @@ a{
 #dark{
     margin-left: 5px;
     margin-top: 5px;
+    color:white !important;
 }
 #dark button{
     background-color:rgb(86 107 204);
